@@ -1,0 +1,11 @@
+git config --global user.name "YourName"
+git config --global user.email "xxxxxxxxx@xx.com"
+ssh-keygen -t rsa -C "xxxxxxxxx@xx.com"
+cd ~/.ssh
+cat id_rsa.pub
+复制SSH密钥添加到github
+git init
+git add --all
+git commit -m "信息"
+git push origin master
+
